@@ -35,8 +35,8 @@ email_field = driver.find_element(By.CSS_SELECTOR, '#email')
 password_field = driver.find_element(By.CSS_SELECTOR, '#pass')
 
 time.sleep(3)
-email_field.send_keys("halidmohamed807@gmail.com")
-password_field.send_keys("Haha123@&$", Keys.RETURN)
+email_field.send_keys("Your fb email")
+password_field.send_keys("Your fb password", Keys.RETURN)
 
 time.sleep(3)
 continue_as = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div/div/div/div/div[1]/div['
